@@ -3,11 +3,11 @@ import './App.css';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Home/Footer';
-import Aboutus from './Components/Aboutus/AboutUs';
+import Aboutus from './Components/Aboutus/About';
 import Blog from './Components/Blog/Blog';
 import Faq from './Components/Faq/Faq';
-import Contactus from './Components/Contactus/Contactus';
-
+import Contact from './Components/Contactus/Contact'
+// import Login from './Components/Login and Register/'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     <Route path='/aboutus' element={<Aboutus />}/>
     <Route path='/blog' element={<Blog />}/>
     <Route path='/faq' element={<Faq />}/>
-    <Route path='/contactus' element={<Contactus />}/>
+    <Route path='/contactus' element={<Contact />}/>
      </Routes>
      
      <Footer />

@@ -29,27 +29,32 @@ const Achievements = () => {
 
   return (
     <div className="relative">
-      <img src={Achieve} className="w-full h-full object-cover object-center" alt="Achievements" />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8'>
-        <div className='text-center mb-4 md:mb-0 md:mr-4'>
-          <span className='text-4xl md:text-6xl font-bold text-blue-900'>{count1}</span>
-          <span className='text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2'>+</span>
-          <p className='text-countertext text-xl md:text-1xl '>Year Of <br />experience</p>
+      <img
+        src={Achieve}
+        className="hidden md:block w-full h-full object-cover object-center"
+        alt="Achievements"
+      />
+
+      <div className="md:absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-4">
+        <div className="text-center md:text-left mb-4 mt-1 md:mb-0 md:mr-4 md:w-full">
+          <span className="text-4xl md:text-6xl font-bold text-blue-900">{count1}</span>
+          <span className="text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2">+</span>
+          <p className="text-countertext text-xl md:text-1xl mt-2 md:mt-0">Year Of <br />experience</p>
         </div>
-        <div className='text-center mb-4 md:mb-0 md:mr-4'>
-          <span className='text-4xl md:text-6xl font-bold text-blue-900'>{count2}</span>
-          <span className='text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2'>+</span>
-          <p className='text-countertext text-xl md:text-1xl '>Cross<br /> successfully raised</p>
+        <div className="text-center md:text-left mb-4 mt-1 md:mb-0 md:ml-14 md:w-full">
+          <span className="text-4xl md:text-6xl font-bold text-blue-900">{count2}</span>
+          <span className="text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2">+</span>
+          <p className="text-countertext text-xl md:text-1xl mt-2 md:mt-0">Cross<br />successfully raised</p>
         </div>
-        <div className='text-center mb-4 md:mb-0 md:mr-4'>
-          <span className='text-4xl md:text-6xl font-bold text-blue-900'>{count3}</span>
-          <span className='text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2'>+</span>
-          <p className='text-countertext text-xl md:text-1xl '>Projects<br />fully funded</p>
+        <div className="text-center md:text-left mb-4 mt-1 md:mb-0 md:ml-20 md:w-full">
+          <span className="text-4xl md:text-6xl font-bold text-blue-900">{count3}</span>
+          <span className="text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2">+</span>
+          <p className="text-countertext text-xl md:text-1xl mt-2 md:mt-0">Projects<br />fully funded</p>
         </div>
-        <div className='text-center md:text-left'>
-          <span className='text-4xl md:text-6xl font-bold text-blue-900'>200</span>
-          <span className='text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2'>%</span>
-          <p className='text-countertext text-xl md:text-1xl '>Year On Year<br />growth</p>
+        <div className="text-center md:text-left mb-4 mt-1 md:mb-0 md:ml-36 md:w-full">
+          <span className="text-4xl md:text-6xl font-bold text-blue-900">200</span>
+          <span className="text-4xl md:text-6xl font-bold text-blue-400 ml-2 md:mr-2">%</span>
+          <p className="text-countertext text-xl md:text-1xl mt-2 md:mt-0">Year On Year<br />growth</p>
         </div>
       </div>
     </div>

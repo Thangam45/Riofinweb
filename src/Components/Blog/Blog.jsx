@@ -98,19 +98,20 @@ const Sample = () => {
 
       {/* button page */}
       <div className="text-white bg-white pt-14 flex justify-center">
-        {[1, 2, 3, 4, 11].map((buttonNumber) => (
-          <button
-            key={buttonNumber}
-            className={`rounded-[50%] bg-gray-300 ${
-              buttonNumber === 4 ? 'w-4 h-3' : 'aspect-square w-11 h-11'
-            } text-black text-center ml-${buttonNumber === 1 ? '0' : '2'} mt-auto mb-1`}
-          >
-            {buttonNumber === 4 ? '.' : buttonNumber}
-          </button>
-        ))}
-      </div>
-      <br />
-      <button className="bg-mygreen ml-8 md:ml-96 px-10 py-2 border-black">Next</button>  </>
+  {[1, 2, 3, 4, 11].map((buttonNumber) => (
+    <button
+      key={buttonNumber}
+      className={`rounded-[50%] bg-gray-300 ${
+        buttonNumber === 4 ? 'w-4 h-3' : 'aspect-square w-11 h-11'
+      } text-black text-center ml-${buttonNumber === 1 ? '0' : '2'} mt-auto mb-1`}
+    >
+      {buttonNumber === 4 ? '.' : buttonNumber}
+    </button>
+  ))}
+</div>
+<br />
+<button className="bg-mygreen mx-auto ml-96 px-10 py-2 border-black">Next</button>
+  </>
   
     );
 }

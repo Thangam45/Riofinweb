@@ -11,6 +11,7 @@ const CurrentProjects = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
+    arrows: false,
     slidesToScroll: 1,
     responsive: [
       {
@@ -72,7 +73,7 @@ const CurrentProjects = () => {
               <Slider {...settings}>
                 {/* Slide 1 */}
                 <div className='w-full md:w-2/3 mx-auto'>
-                  <div className='bg-slidevlue rounded-md md:ht-5 md:mr-[300px] md:ml-1'>
+                  <div className='bg-slidevlue rounded-md md:ht-4 md:mr-[310px] md:ml-1'>
                     <div className='flex flex-col md:flex-row'>
                       <img src={Rectangle} alt="Slide 1" className="h-503 w-229" />
                       <div className='md:border-blue-500 md:rounded-[18px]'>
@@ -134,7 +135,7 @@ const CurrentProjects = () => {
 
                 {/* Slide 2 */}
                 <div className='w-full md:w-2/3 mx-auto'>
-                  <div className='bg-slidevlue rounded-md md:ht-5 md:mr-[300px] md:ml-1'>
+                  <div className='bg-slidevlue rounded-md md:ht-4 md:mr-[310px] md:ml-1'>
                     <div className='flex flex-col md:flex-row'>
                       <img src={Rectangle} alt="Slide 1" className="h-503 w-229" />
                       <div className='md:border-blue-500 md:rounded-[18px]'>

@@ -9,23 +9,23 @@ import Nation from './Nation';
 import CallToAction from './CallToAction';
 import Testimonials from './Testimonials';
 import Counter from './Counter';
-// import CurrentProjects from './CurrentProjects';
-import Funded from './Funded';
+import CurrentProjects from './CurrentProjects';
 import Blog from './Blog'
+import Funded from './Funded';
 const Home= () => {
   return (
    <>
    <Banner />
    <Counter />
    <RiofinAssets />
-   {/* <CurrentProjects /> */}
+   <CurrentProjects />
    <Tab />
     <HowInvest />
     <Founders />
    <Story />
    <Nation />
    <Testimonials />
-   {/* <Funded /> */}
+   <Funded />
    <Blog />
    <CallToAction />  
    </>

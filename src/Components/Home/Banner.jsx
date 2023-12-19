@@ -29,12 +29,12 @@ const Banner = () => {
             <p className='text-white text-lg md:text-2xl mt-2 md:mt-5'>
               With Returns Starting From 18%.
             </p>
-            <button className='bg-mygreen py-3 px-7 mx-4 md:mx-24 mt-2 md:mt-5 rounded-half'>
+            <button className='bg-mygreen py-3 px-7 mx-4 md:mx- mt-2 md:mt-5 rounded-half'>
               Explore Opportunities
             </button>
             <img
               src={Testimonial}
-              className='py-3 px-5 md:mx-16 mt-2 md:mt-5'
+              className='py-3 px-5 md:mx- mt-2 md:mt-5'
               alt='Testimonial'
             />
           </div>

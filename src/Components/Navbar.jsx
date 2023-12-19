@@ -55,9 +55,6 @@ const Navbar = () => {
               <Link to="/aboutus" className="block text-white hover:text-mygreen py-2 w-full">
                 About-Us
               </Link>
-              <Link to="#" className="block text-white hover:text-mygreen py-2 w-full">
-                Services
-              </Link>
               <Link to="/blog" className="block text-white hover:text-mygreen py-2 w-full">
                 Blogs
               </Link>
@@ -87,9 +84,6 @@ const Navbar = () => {
               </Link>
               <Link to="/aboutus" className="text-white hover:text-mygreen">
                 About-Us
-              </Link>
-              <Link to="" className="text-white hover:text-mygreen">
-                Services
               </Link>
               <Link to="/blog" className="text-white hover:text-mygreen">
                 Blogs

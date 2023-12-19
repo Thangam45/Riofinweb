@@ -74,6 +74,7 @@ const TestimonialSection = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
+    arrows: false,
     slidesToScroll: 1,  
     responsive: [
       {
